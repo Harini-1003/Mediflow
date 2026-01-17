@@ -1,0 +1,33 @@
+name: doctor_workload_optimizer
+description: A professional medical workload optimization app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP requests
+  http: ^1.1.0
+
+  # State management (optional)
+  provider: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+# Generate app icons
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
